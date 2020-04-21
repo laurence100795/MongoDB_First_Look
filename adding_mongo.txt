@@ -1,0 +1,5 @@
+you need to add the application link from mongo to the .bashrc file
+
+this is located: gp open /home/gitpod/.bashrc
+
+use that command to view how it's implemented in this application it's named: MONGO_URI
