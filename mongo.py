@@ -1,6 +1,10 @@
 import pymongo
 import os
 
+from os import path
+if path.exists("env.py"):
+    import env
+
 MONGODB_URI = os.getenv("MONGO_URI") #variable stored in .bashrc
 DBS_NAME = "myTestDB" #variable stored in mongo
 COLLECTION_NAME = "myFirstMDB"#variable stored in mongo
